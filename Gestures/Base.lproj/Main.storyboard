@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgimage" translatesAutoresizingMaskIntoConstraints="NO" id="eXT-zn-5mw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="q5g-Eo-qpv">
+                                <rect key="frame" x="334" y="801" width="60" height="60.5"/>
+                                <color key="tintColor" red="0.72645122502125847" green="0.0" blue="0.22689954277609481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ilu-Si-ucy"/>
+                                    <constraint firstAttribute="width" constant="60" id="v00-Qk-wRC"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rPH-CY-6pU">
+                                <rect key="frame" x="194" y="106" width="200" height="636"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="elephant" translatesAutoresizingMaskIntoConstraints="NO" id="Sma-4J-zom">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Dur-Ra-Bh5" appends="YES" id="yh1-PR-7Nn"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lion" translatesAutoresizingMaskIntoConstraints="NO" id="jwY-Pe-isJ">
+                                        <rect key="frame" x="0.0" y="162" width="200" height="150"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="ILg-Z0-JTW" appends="YES" id="2zI-ZQ-gSV"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="4z9-7y-BSm">
+                                        <rect key="frame" x="0.0" y="324" width="200" height="150"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="vsq-aR-Wiu" appends="YES" id="ssI-t6-ZGP"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monkey" translatesAutoresizingMaskIntoConstraints="NO" id="R9D-cn-SZo">
+                                        <rect key="frame" x="0.0" y="486" width="200" height="150"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="T6D-jN-tqw" appends="YES" id="L3m-IF-nNd"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="qbc-2m-toy"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="TOl-ng-ExS">
+                                <rect key="frame" x="20" y="106" width="154" height="637"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fi6-FA-R1o">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="129.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" red="0.73313623549999996" green="0.0" blue="0.22689954279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MONKEY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pN9-qF-pJN">
+                                        <rect key="frame" x="0.0" y="169.5" width="154" height="129"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" red="0.73313623549999996" green="0.0" blue="0.22689954279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ELEPHANT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHR-So-edv">
+                                        <rect key="frame" x="0.0" y="338.5" width="154" height="129.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" red="0.73313623549999996" green="0.0" blue="0.22689954279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ky-pQ-H1V">
+                                        <rect key="frame" x="0.0" y="508" width="154" height="129"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" red="0.73313623549999996" green="0.0" blue="0.22689954279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TOl-ng-ExS" secondAttribute="bottom" constant="119" id="50N-Zy-SLh"/>
+                            <constraint firstItem="rPH-CY-6pU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="FBD-EG-0AO"/>
+                            <constraint firstItem="TOl-ng-ExS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="H7F-E3-yJQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q5g-Eo-qpv" secondAttribute="trailing" constant="20" id="KSl-SD-mkd"/>
+                            <constraint firstAttribute="bottom" secondItem="eXT-zn-5mw" secondAttribute="bottom" id="QON-gH-3hi"/>
+                            <constraint firstAttribute="trailing" secondItem="eXT-zn-5mw" secondAttribute="trailing" id="Qb1-ky-j8c"/>
+                            <constraint firstItem="q5g-Eo-qpv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Rsz-hY-92T"/>
+                            <constraint firstItem="TOl-ng-ExS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Tff-MP-Xy5"/>
+                            <constraint firstItem="eXT-zn-5mw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bLc-5W-tKw"/>
+                            <constraint firstItem="q5g-Eo-qpv" firstAttribute="top" secondItem="rPH-CY-6pU" secondAttribute="bottom" constant="60" id="dr0-Gb-fTD"/>
+                            <constraint firstItem="eXT-zn-5mw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="f7R-RM-Yuq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rPH-CY-6pU" secondAttribute="trailing" constant="20" id="jo0-6l-Kz2"/>
+                            <constraint firstItem="rPH-CY-6pU" firstAttribute="leading" secondItem="TOl-ng-ExS" secondAttribute="trailing" constant="20" id="nUK-ri-F0O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="delete" destination="q5g-Eo-qpv" id="Hkx-EH-kgP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Dur-Ra-Bh5">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="FAg-Rw-TL1"/>
+                        <outlet property="delegate" destination="Sma-4J-zom" id="ecX-Ni-LwV"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ILg-Z0-JTW">
+                    <connections>
+                        <action selector="handlePan2:" destination="BYZ-38-t0r" id="grh-Jr-qYy"/>
+                        <outlet property="delegate" destination="jwY-Pe-isJ" id="ksE-kL-UFb"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="vsq-aR-Wiu">
+                    <connections>
+                        <action selector="handlePan3:" destination="BYZ-38-t0r" id="j2K-EB-k6p"/>
+                        <outlet property="delegate" destination="4z9-7y-BSm" id="Jx7-H1-tnN"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="T6D-jN-tqw">
+                    <connections>
+                        <action selector="handlePan4:" destination="BYZ-38-t0r" id="uZ1-A7-gsb"/>
+                        <outlet property="delegate" destination="R9D-cn-SZo" id="A3q-oT-hDW"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-104.34782608695653" y="-8.0357142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bgimage" width="300" height="585"/>
+        <image name="cat" width="1600" height="1060"/>
+        <image name="elephant" width="703" height="480"/>
+        <image name="lion" width="1920" height="1491"/>
+        <image name="monkey" width="1600" height="1067"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
