@@ -17,6 +17,7 @@
 		E2054E3828C5F5470061D0A5 /* GesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2054E3728C5F5470061D0A5 /* GesturesTests.swift */; };
 		E2054E4228C5F5470061D0A5 /* GesturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2054E4128C5F5470061D0A5 /* GesturesUITests.swift */; };
 		E2054E4428C5F5470061D0A5 /* GesturesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2054E4328C5F5470061D0A5 /* GesturesUITestsLaunchTests.swift */; };
+		E2D7498028C716B100324A07 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7497F28C716B100324A07 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E2054E3D28C5F5470061D0A5 /* GesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2054E4128C5F5470061D0A5 /* GesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesUITests.swift; sourceTree = "<group>"; };
 		E2054E4328C5F5470061D0A5 /* GesturesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2D7497F28C716B100324A07 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				E2054E1D28C5F5430061D0A5 /* AppDelegate.swift */,
 				E2054E1F28C5F5430061D0A5 /* SceneDelegate.swift */,
 				E2054E2128C5F5430061D0A5 /* ViewController.swift */,
+				E2D7497F28C716B100324A07 /* SecondViewController.swift */,
 				E2054E2328C5F5430061D0A5 /* Main.storyboard */,
 				E2054E2928C5F5470061D0A5 /* Assets.xcassets */,
 				E2054E2B28C5F5470061D0A5 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				E2054E2228C5F5430061D0A5 /* ViewController.swift in Sources */,
 				E2054E1E28C5F5430061D0A5 /* AppDelegate.swift in Sources */,
 				E2054E2028C5F5430061D0A5 /* SceneDelegate.swift in Sources */,
+				E2D7498028C716B100324A07 /* SecondViewController.swift in Sources */,
 				E2054E2828C5F5430061D0A5 /* Gestures.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
